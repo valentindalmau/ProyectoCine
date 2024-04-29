@@ -7,6 +7,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ProyectoCIne
 {
@@ -23,13 +24,13 @@ namespace ProyectoCIne
 
         public static int ReadOption()
         {
-            string opcion;
+            string option;
             do
             {
                 Console.WriteLine("Elija una opción (1-5):");
-                opcion = Console.ReadLine();
+                option = Console.ReadLine();
 
-                if (Regex.IsMatch(opcion, "^[1-5]$"))
+                if (Regex.IsMatch(option, "^[1-5]$"))
                 {
                     break;
                 }
@@ -40,54 +41,72 @@ namespace ProyectoCIne
 
             } while (true); 
             
-            return int.Parse(opcion);
+            return int.Parse(option);
         }
 
         public static DateTime ReadDate()
         {
-            int año, mes, dia;
-            bool fechaValida = false;
-            DateTime fecha = DateTime.MinValue;
+            int year, month, day, hours, minutes;
+            bool validDate = false;
+            DateTime date = DateTime.MinValue;
 
             do
             {
-                Console.Write("Ingrese el año (YYYY): ");
-                if (!int.TryParse(Console.ReadLine(), out año))
+                Console.Write("Ingrese el año (entre 1900 y el año actual): ");
+                if (!int.TryParse(Console.ReadLine(), out year) || year < 1900 || year > DateTime.Now.Year)
                 {
-                    Console.WriteLine("Año ingresado no válido. Inténtelo de nuevo.");
+                    Console.WriteLine($"Año inválido. Por favor ingrese un año entre 1900 y {DateTime.Now.Year}.");
                     continue;
                 }
 
                 Console.Write("Ingrese el mes (1-12): ");
-                if (!int.TryParse(Console.ReadLine(), out mes) || mes < 1 || mes > 12)
+                if (!int.TryParse(Console.ReadLine(), out month) || month < 1 || month > 12)
                 {
                     Console.WriteLine("Mes ingresado no válido. Inténtelo de nuevo.");
                     continue;
                 }
 
                 Console.Write("Ingrese el día: ");
-                if (!int.TryParse(Console.ReadLine(), out dia) || dia < 1 || dia > DateTime.DaysInMonth(año, mes))
+                if (!int.TryParse(Console.ReadLine(), out day) || day < 1 || day > DateTime.DaysInMonth(year, month))
                 {
                     Console.WriteLine("Día ingresado no válido para el mes y año especificados. Inténtelo de nuevo.");
                     continue;
                 }
 
-                fechaValida = true;
-                fecha = new DateTime(año, mes, dia);
+                Console.Write("Ingrese la hora (0-23): ");
+                if (!int.TryParse(Console.ReadLine(), out hours) || hours < 0 || hours > 23)
+                {
+                    Console.WriteLine("Hora ingresada no válida. Inténtelo de nuevo.");
+                    continue;
+                }
 
-            } while (!fechaValida);
-            return fecha;
+                Console.Write("Ingrese los minutos (0-59): ");
+                if (!int.TryParse(Console.ReadLine(), out minutes) || minutes < 0 || minutes > 59)
+                {
+                    Console.WriteLine("Minutos ingresados no válidos. Inténtelo de nuevo.");
+                    continue;
+                }
+                validDate = true;
+                date = new DateTime(year, month, day, hours, minutes, 0);
+                if (date > DateTime.Now)
+                {
+                    Console.WriteLine("La fecha ingresada no puede ser posterior a la fecha actual. Inténtelo de nuevo.");
+                    continue;
+                }
+
+            } while (!validDate);
+            return date;
         }
-        public static Movie ReadMovie(List<Movie> peliculas)
+        public static Movie ReadMovie(List<Movie> movies)
         {
             int index = 0;
             int pos;
-            foreach (Movie pelicula in peliculas)
+            foreach (Movie movie in movies)
             {
-                Console.WriteLine($"{index+1}");
-                Console.WriteLine(pelicula.Title);
-                Console.WriteLine(pelicula.Director);
-                if (pelicula.IsNational)
+                Console.WriteLine($"ID: {index+1}");
+                Console.WriteLine($"Titulo: {movie.Title}");
+                Console.WriteLine($"Director: {movie.Director}");
+                if (movie.IsNational)
                 {
                     Console.WriteLine("Nacionalidad: argentina");
                 }
@@ -98,32 +117,32 @@ namespace ProyectoCIne
                 Console.WriteLine("\n");
                 index++;
             }
-            Console.WriteLine("Selecciona una pelicula por su posicion: ");
-            while(!int.TryParse(Console.ReadLine(), out pos) || pos < 1 || pos > peliculas.Count())
+            Console.WriteLine("Selecciona una pelicula por su ID: ");
+            while(!int.TryParse(Console.ReadLine(), out pos) || pos < 1 || pos > movies.Count())
             {
                 Console.WriteLine("Numero incorrecto, seleccione una pelicula");
             }
-            return peliculas[pos-1];
+            return movies[pos-1];
 
         }
 
         public static CinemaFunction ReadFunction()
         {
-            string peliculasJson = File.ReadAllText("C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\movies.json");
-            List<Movie>? peliculas = JsonConvert.DeserializeObject<List<Movie>>(peliculasJson);
-            int precio = 0;
-            DateTime fecha = ReadDate();
-            Movie pelicula = ReadMovie(peliculas);
+            string moviesJson = File.ReadAllText("C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\movies.json");
+            List<Movie>? movies = JsonConvert.DeserializeObject<List<Movie>>(moviesJson);
+            int price = 0;
+            DateTime date = ReadDate();
+            Movie movie = ReadMovie(movies);
             Console.WriteLine("Escriba el precio de la funcion: ");
-            while(!int.TryParse(Console.ReadLine(), out precio) || precio <= 0)
+            while(!int.TryParse(Console.ReadLine(), out price) || price <= 0)
             {
                 Console.WriteLine("Precio ingresado no válido. Inténtelo de nuevo.");
             }
 
 
-            return new CinemaFunction(fecha, precio, pelicula, pelicula.Director);
+            return new CinemaFunction(date, price, movie, movie.Director);
         }
-        public static void CallFunction(int option, FunctionManager manager)
+        public static void CallFunction(int option, FunctionManager manager, FunctionRepository repository)
         {
             switch (option)
             {
@@ -131,37 +150,18 @@ namespace ProyectoCIne
                     Console.WriteLine("Le vamos a pedir los datos de la funcion a ingresar");
                     CinemaFunction function = ReadFunction();
                     manager.AddFunction(function);
+                    repository.SaveFunctions(manager.Functions);
                     break;
                 case 2:
-                    Console.WriteLine("Le vamos a pedir los datos de la funcion a modificar");
-                    CinemaFunction currentFunction = ReadFunction();
-                    Console.WriteLine("Le vamos a pedir los datos de la funcion a agregar");
-                    CinemaFunction newFunction = ReadFunction();
-                    manager.UpdateFunction(currentFunction, newFunction);
+                    manager.UpdateFunction();
+                    repository.SaveFunctions(manager.Functions);
                     break;
                 case 3:
-                    Console.WriteLine("Le vamos a pedir los datos de la funcion a eliminar");
-                    CinemaFunction deleteFunction = ReadFunction();
-                    manager.DeleteFunction(deleteFunction);
+                    manager.DeleteFunction();
+                    repository.SaveFunctions(manager.Functions);
                     break;
                 case 4:
-                    List<CinemaFunction> funciones = manager.Functions;
-                    foreach (CinemaFunction funcion in funciones)
-                    {
-                        Console.WriteLine(funcion.Date);
-                        Console.WriteLine(funcion.Price);
-                        Console.WriteLine(funcion.Movie.Title);
-                        Console.WriteLine(funcion.Movie.Director);
-                        if (funcion.Movie.IsNational)
-                        {
-                            Console.WriteLine("Nacionalidad: argentina");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Nacionalidad: extranjera");
-                        }
-                        Console.WriteLine("\n");
-                    }
+                    manager.ShowFunctions();
                     break;
                 case 5:
                     Console.WriteLine("Saliendo del programa");

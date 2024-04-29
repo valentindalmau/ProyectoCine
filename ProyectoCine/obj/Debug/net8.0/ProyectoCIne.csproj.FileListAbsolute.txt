@@ -15,3 +15,4 @@ C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0
 C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\ProyectoCIne.pdb
 C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\ProyectoCIne.genruntimeconfig.cache
 C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\ref\ProyectoCIne.dll
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\ProyectoCIne.sourcelink.json

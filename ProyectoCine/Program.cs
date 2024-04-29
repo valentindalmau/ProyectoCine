@@ -10,15 +10,17 @@ internal class Program
         string peliculasJson = File.ReadAllText("C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\movies.json");
         List<Movie>? peliculas = JsonConvert.DeserializeObject<List<Movie>>(peliculasJson);
         FunctionManager manager = new FunctionManager();
+        FunctionRepository repository = new FunctionRepository();
+        manager.Functions = repository.LoadFunctions();
         do
         {
             Menu.ShowMenu();
-            int opcion = Menu.ReadOption();
-            if(opcion == 5)
+            int option = Menu.ReadOption();
+            if(option == 5)
             {
                 break;
             }
-            Menu.CallFunction(opcion, manager);
+            Menu.CallFunction(option, manager, repository);
             
         }while (true);
 

@@ -1,0 +1,22 @@
+[
+  {
+    "Date": "2000-02-03T04:02:00",
+    "Price": 1.0,
+    "Movie": {
+      "Title": "El Critico",
+      "Director": "Hernan Guerschuny",
+      "IsNational": true
+    },
+    "Director": "Hernan Guerschuny"
+  },
+  {
+    "Date": "2000-03-04T05:20:00",
+    "Price": 10.0,
+    "Movie": {
+      "Title": "The Dark Knight",
+      "Director": "Christopher Nolan",
+      "IsNational": false
+    },
+    "Director": "Christopher Nolan"
+  }
+]
