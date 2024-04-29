@@ -1,0 +1,343 @@
+[
+
+  {
+    "title": "El Clan",
+    "director": "Pablo Trapero",
+    "isNational": true
+  },
+  {
+    "title": "El Patron: Radiografia de un Crimen",
+    "director": "Sebastian Schindel",
+    "isNational": true
+  },
+  {
+    "title": "El Critico",
+    "director": "Hernan Guerschuny",
+    "isNational": true
+  },
+  {
+    "title": "El Amor Menos Pensado",
+    "director": "Juan Vera",
+    "isNational": true
+  },
+  {
+    "title": "Cien Anios de Perdon",
+    "director": "Daniel Calparsoro",
+    "isNational": true
+  },
+  {
+    "title": "Acusada",
+    "director": "Gonzalo Tobal",
+    "isNational": true
+  },
+  {
+    "title": "Interstellar",
+    "director": "Christopher Nolan",
+    "isNational": false
+  },
+
+  {
+    "title": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "isNational": false
+  },
+
+  {
+    "title": "Django Unchained",
+    "director": "Quentin Tarantino",
+    "isNational": false
+  },
+  {
+    "title": "The Departed",
+    "director": "Martin Scorsese",
+    "isNational": false
+  },
+
+  {
+    "title": "Catch Me If You Can",
+    "director": "Steven Spielberg",
+    "isNational": false
+  },
+
+  {
+    "title": "Jurassic Park",
+    "director": "Steven Spielberg",
+    "isNational": false
+  },
+
+  {
+    "title": "Gravity",
+    "director": "Alfonso Cuaron",
+    "isNational": false
+  },
+
+  {
+    "title": "Children of Men",
+    "director": "Alfonso Cuaron",
+    "isNational": false
+  },
+
+  {
+    "title": "The Social Network",
+    "director": "David Fincher",
+    "isNational": false
+  },
+
+  {
+    "title": "Se7en",
+    "director": "David Fincher",
+    "isNational": false
+  },
+
+  {
+    "title": "BlacKkKlansman",
+    "director": "Spike Lee",
+    "isNational": false
+  },
+
+  {
+    "title": "Inside Man",
+    "director": "Spike Lee",
+    "isNational": false
+  },
+
+  {
+    "title": "Arrival",
+    "director": "Denis Villeneuve",
+    "isNational": false
+  },
+
+  {
+    "title": "Blade Runner 2049",
+    "director": "Denis Villeneuve",
+    "isNational": false
+  },
+
+
+  {
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "isNational": false
+  },
+  {
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "isNational": false
+  },
+  {
+    "title": "The Irishman",
+    "director": "Martin Scorsese",
+    "isNational": false
+  },
+  {
+    "title": "Schindler's List",
+    "director": "Steven Spielberg",
+    "isNational": false
+  },
+  {
+    "title": "Roma",
+    "director": "Alfonso Cuaron",
+    "isNational": false
+  },
+  {
+    "title": "Fight Club",
+    "director": "David Fincher",
+    "isNational": false
+  },
+  {
+    "title": "Little Women",
+    "director": "Greta Gerwig",
+    "isNational": false
+  },
+  {
+    "title": "Avatar",
+    "director": "James Cameron",
+    "isNational": false
+  },
+  {
+    "title": "Do the Right Thing",
+    "director": "Spike Lee",
+    "isNational": false
+  },
+  {
+    "title": "Blade Runner 2049",
+    "director": "Denis Villeneuve",
+    "isNational": false
+  },
+  {
+    "title": "El Secreto de Sus Ojos",
+    "director": "Juan Jose Campanella",
+    "isNational": true
+  },
+  {
+    "title": "Relatos Salvajes",
+    "director": "Damian Szifron",
+    "isNational": true
+  },
+  {
+    "title": "El Angel",
+    "director": "Luis Ortega",
+    "isNational": true
+  },
+  {
+    "title": "Nueve Reinas",
+    "director": "Fabian Bielinsky",
+    "isNational": true
+  },
+  {
+    "title": "El Clan",
+    "director": "Pablo Trapero",
+    "isNational": true
+  },
+  {
+    "title": "Carancho",
+    "director": "Pablo Trapero",
+    "isNational": true
+  },
+  {
+    "title": "Relatos Salvajes",
+    "director": "Damian Szifron",
+    "isNational": true
+  },
+  {
+    "title": "El Aura",
+    "director": "Fabian Bielinsky",
+    "isNational": true
+  },
+  {
+    "title": "El Ciudadano Ilustre",
+    "director": "Gaston Duprat",
+    "isNational": true
+  },
+  {
+    "title": "La Historia Oficial",
+    "director": "Luis Puenzo",
+    "isNational": true
+  },
+  {
+    "title": "Un Cuento Chino",
+    "director": "Sebastian Borensztein",
+    "isNational": true
+  },
+  {
+    "title": "El Hijo de la Novia",
+    "director": "Juan Jose Campanella",
+    "isNational": true
+  },
+  {
+    "title": "El Metodo",
+    "director": "Marcelo Pi�eyro",
+    "isNational": true
+  },
+  {
+    "title": "El Faro de las Orcas",
+    "director": "Gerardo Olivares",
+    "isNational": true
+  },
+  {
+    "title": "Medianeras",
+    "director": "Gustavo Taretto",
+    "isNational": true
+  },
+  {
+    "title": "El Bonaerense",
+    "director": "Pablo Trapero",
+    "isNational": true
+  },
+  {
+    "title": "El Clan",
+    "director": "Pablo Trapero",
+    "isNational": true
+  },
+  {
+    "title": "El Patron: Radiografia de un Crimen",
+    "director": "Sebastian Schindel",
+    "isNational": true
+  },
+  {
+    "title": "El Critico",
+    "director": "Hernan Guerschuny",
+    "isNational": true
+  },
+  {
+    "title": "El Amor Menos Pensado",
+    "director": "Juan Vera",
+    "isNational": true
+  },
+  {
+    "title": "El Secreto de sus Ojos",
+    "director": "Juan Jose Campanella",
+    "isNational": true
+  },
+  {
+    "title": "Cien A�os de Perdon",
+    "director": "Daniel Calparsoro",
+    "isNational": true
+  },
+  {
+    "title": "Acusada",
+    "director": "Gonzalo Tobal",
+    "isNational": true
+  },
+  {
+    "title": "Carancho",
+    "director": "Pablo Trapero",
+    "isNational": true
+  },
+  {
+    "title": "El Ciudadano Ilustre",
+    "director": "Gaston Duprat",
+    "isNational": true
+  },
+  {
+    "title": "Koblic",
+    "director": "Sebastian Borensztein",
+    "isNational": true
+  },
+  {
+    "title": "El Secreto de sus Ojos",
+    "director": "Juan Jose Campanella",
+    "isNational": true
+  },
+  {
+    "title": "El Aura",
+    "director": "Fabian Bielinsky",
+    "isNational": true
+  },
+  {
+    "title": "La Historia Oficial",
+    "director": "Luis Puenzo",
+    "isNational": true
+  },
+  {
+    "title": "Un Cuento Chino",
+    "director": "Sebastian Borensztein",
+    "isNational": true
+  },
+  {
+    "title": "El Hijo de la Novia",
+    "director": "Juan Jose Campanella",
+    "isNational": true
+  },
+  {
+    "title": "El Metodo",
+    "director": "Marcelo Pineyro",
+    "isNational": true
+  },
+  {
+    "title": "El Faro de las Orcas",
+    "director": "Gerardo Olivares",
+    "isNational": true
+  },
+  {
+    "title": "Medianeras",
+    "director": "Gustavo Taretto",
+    "isNational": true
+  },
+  {
+    "title": "El Bonaerense",
+    "director": "Pablo Trapero",
+    "isNational": true
+  }
+
+]

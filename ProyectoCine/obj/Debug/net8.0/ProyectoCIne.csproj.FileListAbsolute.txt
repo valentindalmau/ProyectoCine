@@ -1,0 +1,17 @@
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\ProyectoCIne.csproj.AssemblyReference.cache
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\ProyectoCIne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\ProyectoCIne.AssemblyInfoInputs.cache
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\ProyectoCIne.AssemblyInfo.cs
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\ProyectoCIne.csproj.CoreCompileInputs.cache
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\bin\Debug\net8.0\ProyectoCIne.exe
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\bin\Debug\net8.0\ProyectoCIne.deps.json
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\bin\Debug\net8.0\ProyectoCIne.runtimeconfig.json
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\bin\Debug\net8.0\ProyectoCIne.dll
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\bin\Debug\net8.0\ProyectoCIne.pdb
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\Proyecto.C194C2EE.Up2Date
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\ProyectoCIne.dll
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\refint\ProyectoCIne.dll
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\ProyectoCIne.pdb
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\ProyectoCIne.genruntimeconfig.cache
+C:\Users\valen\Desktop\proyecto react\ProyectoCine\ProyectoCIne\obj\Debug\net8.0\ref\ProyectoCIne.dll
