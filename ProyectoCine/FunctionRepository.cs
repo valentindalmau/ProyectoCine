@@ -13,16 +13,19 @@ namespace ProyectoCIne
 
         public List<CinemaFunction> LoadFunctions()
         {
-            List<CinemaFunction> functions;
+            List<CinemaFunction> functions = new List<CinemaFunction>();
 
             if (File.Exists(FilePath))
             {
-                string json = File.ReadAllText(FilePath);
-                functions = JsonConvert.DeserializeObject<List<CinemaFunction>>(json);
-            }
-            else
-            {
-                functions = new List<CinemaFunction>();
+                try
+                {
+                    string json = File.ReadAllText(FilePath);
+                    functions = JsonConvert.DeserializeObject<List<CinemaFunction>>(json);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error al cargar las funciones: {ex.Message}");
+                }
             }
 
             return functions;
@@ -34,9 +37,17 @@ namespace ProyectoCIne
 
             if (!fileExists)
             {
-                File.Create(FilePath).Dispose();
-                Console.WriteLine("Archivo creado exitosamente");
+                try
+                {
+                    File.Create(FilePath).Dispose();
+                    Console.WriteLine("Archivo creado exitosamente");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error al crear el archivo: {ex.Message}");
+                }
             }
+
 
             string json = JsonConvert.SerializeObject(functions, Formatting.Indented);
 

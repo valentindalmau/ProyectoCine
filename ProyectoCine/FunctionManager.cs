@@ -1,5 +1,6 @@
 ﻿using ProyectoCIne;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Diagnostics;
+using System.IO;
 
 namespace ProyectoCine
 {
@@ -12,7 +13,7 @@ namespace ProyectoCine
 
         public void ShowFunctions() 
         {
-            int index = 0;
+            var index = 0;
             foreach (CinemaFunction function in functions)
             {
                 Console.WriteLine($"ID: {index+1}");
@@ -38,13 +39,13 @@ namespace ProyectoCine
         }
         public void AddFunction(CinemaFunction cinemaFunction)
         {
-            if (TooManyInternationals(functions, cinemaFunction.Date) && TooManyOfDirector(functions, cinemaFunction.Date, cinemaFunction.Movie.Director))
+            if (TooManyInternationals(functions, cinemaFunction.Date) || TooManyOfDirector(functions, cinemaFunction.Date, cinemaFunction.Movie.Director) || FunctionAlreadyExist(functions, cinemaFunction))
             {
-                functions.Add(cinemaFunction);
+                Console.WriteLine("La funcion no se puede agregar por incumplir alguna norma");
             }
             else
             {
-                Console.WriteLine("La funcion no se puede agregar por incumplir alguna norma");
+                functions.Add(cinemaFunction);
             }
         }
 
@@ -52,16 +53,25 @@ namespace ProyectoCine
         {
 
             ShowFunctions();
-            while (true)
+            var ban = true;
+            while (ban)
             {
                 Console.WriteLine("Seleccione que numero de funcion desea modificar por ID: ");
                 if (int.TryParse(Console.ReadLine(), out int index) && index >= 1 && index <= functions.Count)
                 {
                     Console.WriteLine("Le vamos a pedir los datos para modificar la funcion");
                     CinemaFunction function = Menu.ReadFunction();
-                    functions[index-1] = function;
-                    Console.WriteLine("Función modificada correctamente.");
-                    break;
+                    if (TooManyInternationals(functions, function.Date) || TooManyOfDirector(functions, function.Date, function.Movie.Director) || FunctionAlreadyExist(functions, function))
+                    {
+                        Console.WriteLine("La funcion no se pudo modificar por incumplir alguna norma");
+                    }
+                    else
+                    {
+                        functions[index - 1] = function;
+                        Console.WriteLine("Función modificada correctamente.");
+                    }
+                    ban = false;
+
                 }
                 else
                 {
@@ -72,15 +82,16 @@ namespace ProyectoCine
 
         public void DeleteFunction()
         {
+            var ban = true;
             ShowFunctions();
-            while(true)
+            while(ban)
             {
                 Console.WriteLine("Seleccione que numero de funcion desea eliminar por ID: ");
                 if(int.TryParse(Console.ReadLine(), out int index) && index >= 1 && index <= functions.Count)
                 {
                     functions.RemoveAt(index - 1);
                     Console.WriteLine("Función eliminada correctamente.");
-                    break;
+                    ban = false;
                 }
                 else
                 {
@@ -94,44 +105,28 @@ namespace ProyectoCine
 
         public bool TooManyInternationals(List<CinemaFunction> aListOfFunctions, DateTime aDate)
         {
-            int internationalMoviesCount = 0;
+            var internationalsTodayCount = (from f in aListOfFunctions
+                                            where f.Movie.IsNational == false
+                                            where f.Date.Year == aDate.Year && f.Date.Month == aDate.Month && f.Date.Day == aDate.Day
+                                            select f.Director).Count();
 
-            foreach (var func in aListOfFunctions)
-            {
-                if (func.Date == aDate)
-                {
-                    if (!func.Movie.IsNational)
-                    {
-                        internationalMoviesCount++;
-
-                        if (internationalMoviesCount >= 8)
-                            return false;
-                    }
-                }
-            }
-
-            return true;
+            return internationalsTodayCount >= 8;
         }
 
         public bool TooManyOfDirector(List<CinemaFunction> aListOfFunctions, DateTime aDate, string aDirector)
         {
-            int directorMoviesCount = 0;
-
-            foreach (var func in aListOfFunctions)
-            {
-                if (func.Date == aDate)
-                {
-                    if (func.Director == aDirector)
-                    {
-                        directorMoviesCount++;
-
-                        if (directorMoviesCount >= 10)
-                            return false;
-                    }
-                }
-            }
-
-            return true;
+            var moviesFromDirectorToday = (from f in aListOfFunctions
+                                            where f.Movie.Director == aDirector
+                                            where f.Date.Year == aDate.Year && f.Date.Month == aDate.Month && f.Date.Day == aDate.Day
+                                            select f.Director).Count();
+            return moviesFromDirectorToday >= 10;
+        }
+        public bool FunctionAlreadyExist(List<CinemaFunction> aListOfFunctions, CinemaFunction aFunction)
+        {
+            var equalFunctions = (from f in aListOfFunctions
+                                  where f.Equals(aFunction)
+                                  select f.Director).Count();
+            return equalFunctions > 0;
         }
     }
 

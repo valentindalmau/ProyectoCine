@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\functionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\functionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\cinemafunctions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\cinemafunctions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\functionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\functionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\functionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\functionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\cinemafunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\cinemafunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\directores.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\directores.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\movies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\cinemafunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\cinemafunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\cinemafunctions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\cinemafunctions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|c:\\users\\valen\\desktop\\proyecto react\\proyectocine\\proyectocine\\directores.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{05027716-5E9E-4ED8-8017-9866E7E40486}|ProyectoCIne\\ProyectoCIne.csproj|solutionrelative:proyectocine\\directores.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,43 +46,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "CinemaFunctions.json",
               "DocumentMoniker": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\CinemaFunctions.json",
               "RelativeDocumentMoniker": "ProyectoCine\\CinemaFunctions.json",
               "ToolTip": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\CinemaFunctions.json",
               "RelativeToolTip": "ProyectoCine\\CinemaFunctions.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-29T23:29:15.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FunctionRepository.cs",
               "DocumentMoniker": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\FunctionRepository.cs",
               "RelativeDocumentMoniker": "ProyectoCine\\FunctionRepository.cs",
               "ToolTip": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\FunctionRepository.cs",
               "RelativeToolTip": "ProyectoCine\\FunctionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T23:12:00.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FunctionManager.cs",
               "DocumentMoniker": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\FunctionManager.cs",
               "RelativeDocumentMoniker": "ProyectoCine\\FunctionManager.cs",
               "ToolTip": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\FunctionManager.cs",
               "RelativeToolTip": "ProyectoCine\\FunctionManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAAABEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T14:31:09.236Z",
               "EditorCaption": ""
@@ -102,51 +102,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\Movie.cs",
-              "RelativeDocumentMoniker": "ProyectoCine\\Movie.cs",
-              "ToolTip": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\Movie.cs",
-              "RelativeToolTip": "ProyectoCine\\Movie.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAkwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T19:31:31.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "movies.json",
               "DocumentMoniker": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\movies.json",
               "RelativeDocumentMoniker": "ProyectoCine\\movies.json",
               "ToolTip": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\movies.json",
               "RelativeToolTip": "ProyectoCine\\movies.json",
-              "ViewState": "AQIAACABAAAAAAAAAAAAAEwBAAAaAAAA",
+              "ViewState": "AQIAAIIAAAAAAAAAAADwv48AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-28T19:06:14.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "directores.txt",
-              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\directores.txt",
-              "RelativeDocumentMoniker": "ProyectoCine\\directores.txt",
-              "ToolTip": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\directores.txt",
-              "RelativeToolTip": "ProyectoCine\\directores.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-28T19:05:47.535Z",
+              "WhenOpened": "2024-04-28T19:06:14.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\Program.cs",
               "RelativeDocumentMoniker": "ProyectoCine\\Program.cs",
               "ToolTip": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\Program.cs",
               "RelativeToolTip": "ProyectoCine\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA4AAAAKAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T14:29:51.321Z",
               "EditorCaption": ""
@@ -159,10 +134,35 @@
               "RelativeDocumentMoniker": "ProyectoCine\\Menu.cs",
               "ToolTip": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\Menu.cs",
               "RelativeToolTip": "ProyectoCine\\Menu.cs",
-              "ViewState": "AQIAAJEAAAAAAAAAAAAAAKAAAABAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAKAAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T19:48:39.357Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\Movie.cs",
+              "RelativeDocumentMoniker": "ProyectoCine\\Movie.cs",
+              "ToolTip": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\Movie.cs",
+              "RelativeToolTip": "ProyectoCine\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T19:31:31.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "directores.txt",
+              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\directores.txt",
+              "RelativeDocumentMoniker": "ProyectoCine\\directores.txt",
+              "ToolTip": "C:\\Users\\valen\\Desktop\\proyecto react\\ProyectoCine\\ProyectoCine\\directores.txt",
+              "RelativeToolTip": "ProyectoCine\\directores.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-28T19:05:47.535Z"
             }
           ]
         }
